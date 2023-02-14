@@ -55,4 +55,4 @@ for user input until "exit" is received and the process manager will exit. <br /
 # How to compile and run PMan:
 
 There is a make file provided, so simply type "make" into the terminal to compile. <br />
-Then type ./PMan into the terminal to execute PMan.
+Then type "./PMan" into the terminal to execute PMan.
