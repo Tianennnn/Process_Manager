@@ -45,8 +45,7 @@ for user input until "exit" is received and the process manager will exit. <br /
   - voluntary ctxt switches: Number of voluntary context switches (since Linux 2.6.23).
   -nonvoluntary ctxt switches: Number of involuntary context switches (since Linux 2.6.23).
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In summary, PMan supports these commands: **bg**, **bglist**, **bgkill**, **bgstop**, **bgstart**, and **pstat**. If the user types an unrecognized
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;command, an error message is given by PMan, e.g., 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In summary, PMan supports these commands: **bg**, **bglist**, **bgkill**, **bgstop**, **bgstart**, and **pstat**. If the user types an unrecognized command, an error message is given by PMan, e.g., 
 ```diff
   PMan:> ttest
   PMan:> ttest: command not found
