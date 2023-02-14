@@ -18,7 +18,7 @@ for user input until "exit" is received and the process manager will exit. <br /
   456: /home/user/CSC/foo
   Total background jobs: 2
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this case, there are 2 background jobs both running the program "foo", the first one has process ID 123 and the second one has 456.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this case, there are 2 background jobs, both running the program "foo", the first one has process ID 123 and the second one has 456.
     
 - **bgkill \<pid\>:**  PMan will send the "terminate" signal to the job with the given process id, pid, to terminate that job. e.g., 
 ```diff
