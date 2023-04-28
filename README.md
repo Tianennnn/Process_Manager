@@ -37,8 +37,8 @@ for user input until "exit" is received and the process manager will exit. <br /
 
 - **pstat \<pid\>:**   PMan will list the following information related to given process id:
 
-  - comm : The filename of the executable, in parentheses. 
-  - state : One of the following characters, indicating process state: R (Running), S (Sleeping in an interruptible wait), D (Waiting in uninterruptible disk sleep), Z (Zombie), T (Stopped (on a signal) or (before Linux 2.6.33) trace stopped ), t (Tracing stop (Linux 2.6.33 onward)), W (Paging (only before Linux 2.6.0)), X (Dead (from Linux 2.6.0 onward)), x (Dead (Linux 2.6.33 to 3.13 only)), K (Wakekill (Linux 2.6.33 to 3.13 only)), W (Waking (Linux 2.6.33 to 3.13 only)), P (Parked (Linux 3.9 to 3.13 only)).
+  - comm: The filename of the executable, in parentheses. 
+  - state: One of the following characters, indicating process state: R (Running), S (Sleeping in an interruptible wait), D (Waiting in uninterruptible disk sleep), Z (Zombie), T (Stopped (on a signal) or (before Linux 2.6.33) trace stopped ), t (Tracing stop (Linux 2.6.33 onward)), W (Paging (only before Linux 2.6.0)), X (Dead (from Linux 2.6.0 onward)), x (Dead (Linux 2.6.33 to 3.13 only)), K (Wakekill (Linux 2.6.33 to 3.13 only)), W (Waking (Linux 2.6.33 to 3.13 only)), P (Parked (Linux 3.9 to 3.13 only)).
   - utime: Amount of time that this process has been scheduled in user mode.
   - stime: Amount of time that this process has been scheduled in kernel mode.
   - rss: Resident Set Size: number of pages the process has in real memory.
